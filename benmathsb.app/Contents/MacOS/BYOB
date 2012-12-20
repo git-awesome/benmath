@@ -1,0 +1,4 @@
+#! /bin/sh
+mydir=`dirname "$0"`
+cd "${mydir}"
+./realBYOB "`pwd`/BYOB.image" benmathsb.ypr presentation benmathsb.ypr 2> /dev/null
